@@ -81,7 +81,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t slsrikanthkumar/nodejs-ci-cd:latest
+        run: docker build -t punithkumarsl140/ci-cd-nodejs:latest
 
      - name: Push to Docker Hub
-        run: docker push slsrikanthkumar/nodejs-ci-cd:lat
+        run: docker push punithkumarsl140/ci-cd-nodejs:lat
